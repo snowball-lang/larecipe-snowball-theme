@@ -1,5 +1,5 @@
 {
-    "name": "snowball/snowballcolor",
+    "name": "snowball-lang/snowballcolor",
     "description": "A LaRecipe theme.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Snowball\\snowballcolor\\": "src/"
+            "Snowball-lang\\snowballcolor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Snowball\\snowballcolor\\ThemeServiceProvider"
+                "Snowball-lang\\snowballcolor\\ThemeServiceProvider"
             ]
         }
     },
