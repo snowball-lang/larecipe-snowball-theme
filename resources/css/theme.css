@@ -132,7 +132,7 @@ html, body {
 }
 .sidebar > ul > li > ul > li ul > li.is-active a::before {
   content: '\25CF';
-  color: #ff2d1f;
+  color: #000;
   margin-left: -1.5rem;
   padding-right: 0.8rem;
 }
@@ -177,13 +177,13 @@ html, body {
   margin-left: -1rem;
   position: absolute;
   font-size: 1rem;
-  color: #ff2d1f;
+  color: #000;
   opacity: .75;
 }
 
 .documentation h1:first-of-type {
   border-left-width: 4px;
-  border-color: #ff2d1f;
+  border-color: #000;
   padding-left: 1rem;
   margin-bottom: 1.5rem;
   font-weight: 700;
@@ -207,7 +207,7 @@ html, body {
 
 .documentation h2 a:before {
   margin-left: -1.5rem;
-  color: #ff2d1f;
+  color: #000;
   margin-top: 0;
   font-size: 1.6rem;
 }
