@@ -149,7 +149,7 @@ html, body {
     margin-left: 18%;
 }
 
-.documentation > ul {
+.documentation > ul:first-of-type {
   position: relative;
   padding: 1rem;
   list-style: none;
@@ -158,21 +158,21 @@ html, body {
   width: 100%;
 }
 
-.documentation > ul li {
+.documentation > ul:first-of-type li {
   border-bottom-width: 0px;
   line-height: .5;
   padding: .75rem;
   margin-left: 2.3rem;
 }
 
-.documentation > ul li a {
+.documentation > ul:first-of-type li a {
   font-size: .875rem;
   font-weight: 600;
   text-decoration: none;
   color: #0A0A10;
 }
 
-.documentation > ul li a::before {
+.documentation > ul:first-of-type li a::before {
   content: "#";
   margin-left: -1rem;
   position: absolute;
