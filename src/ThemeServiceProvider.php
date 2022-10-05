@@ -1,6 +1,6 @@
 <?php
 
-namespace Abbyjanke\Laracolor;
+namespace SnowballLang\SnowballColor;
 
 use BinaryTorch\LaRecipe\LaRecipe;
 use Illuminate\Support\ServiceProvider;
@@ -14,7 +14,7 @@ class ThemeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        LaRecipe::style('laracolor', __DIR__.'/../resources/css/theme.css');
+        LaRecipe::style('snowballColor', __DIR__.'/../resources/css/theme.css');
     }
 
     /**

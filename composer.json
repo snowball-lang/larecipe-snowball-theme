@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Snowball-lang\\snowballcolor\\": "src/"
+            "SnowballLang\\SnowballColor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Snowball-lang\\snowballcolor\\ThemeServiceProvider"
+                "SnowballLang\\SnowballColor\\ThemeServiceProvider"
             ]
         }
     },
