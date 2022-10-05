@@ -160,7 +160,7 @@ html, body {
 
 .documentation > ul li {
   border-bottom-width: 0px;
-  list-style: circle;
+  line-height: .5;
   padding: .75rem;
   margin-left: 2.3rem;
 }
