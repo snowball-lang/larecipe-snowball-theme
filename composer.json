@@ -1,5 +1,5 @@
 {
-    "name": "abbyjanke/laracolor",
+    "name": "snowball/snowballcolor",
     "description": "A LaRecipe theme.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Abbyjanke\\Laracolor\\": "src/"
+            "Snowball\\snowballcolor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Abbyjanke\\Laracolor\\ThemeServiceProvider"
+                "Snowball\\snowballcolor\\ThemeServiceProvider"
             ]
         }
     },
